@@ -1,0 +1,9 @@
+#program17.py
+#Copy the alternat data in another file 
+
+file1 = open("E:/sample.txt",'r')
+data = file1.readlines()
+i = 0
+while i < len(data):
+	print(data[i])
+	i = i + 2

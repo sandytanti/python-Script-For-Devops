@@ -1,0 +1,8 @@
+#program13.py
+#Write  a program to append data into a file 
+
+data = "welcome to TantiTech"
+file = open("E:/sample.txt",'w')
+file.write(data)
+file.close()
+

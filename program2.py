@@ -1,0 +1,14 @@
+#program2.py
+#search smallest number
+
+a = 10
+b = 20
+c = 5
+if a < b and a < c:
+	print('a is the samllest')
+elif b < c:
+	print('b is the smallest')
+else:
+	print('c is the smallest')
+print('program success')
+
